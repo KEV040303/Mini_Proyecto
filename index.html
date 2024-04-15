@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funval-API</title>
+    
+    /* Se que es mala practica colocar asi los estilos, 
+    pero no se cargaba el html con los estilos 
+    de la otra forma */
+    <style>
+        body {
+    background: linear-gradient(to right, rgb(39, 39, 255), rgb(98, 98, 255));
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 7px;
+    padding: 8px 10px;
+    transition: 0.5s;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+p:hover {
+    cursor: default;
+}
+
+a:hover {
+    background-color: royalblue;
+    color: white;
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Bienvenido a mi Funval-API</h1>
+    <p>¡Explora el mundo de la programación!</p>
+    <a href="http://localhost:3333/api/usuarios">Usuarios</a>
+    <a href="http://localhost:3333/api/usuarios/export">Exportar</a>
+    <a href="http://localhost:3333/api/usuarios/import">Importar</a>
+</div>
+
+</body>
+</html>

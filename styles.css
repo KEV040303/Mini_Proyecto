@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to right, rgb(39, 39, 255), rgb(98, 98, 255));
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 7px;
+    padding: 8px 10px;
+    transition: 0.5s;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+p:hover {
+    cursor: default;
+}
+
+a:hover {
+    background-color: royalblue;
+    color: white;
+}
